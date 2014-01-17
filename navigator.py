@@ -24,7 +24,7 @@ class TestNavigator(unittest.TestCase):
         self.navigator = Navigator()
 
     def test_ping_google(self):
-        result = self.navigator.ping("http://fgv.herokuapp.com")
+        result = self.navigator.ping("http://www.google.com")
         self.assertEquals(result, 200)
 
 if __name__ == '__main__':
